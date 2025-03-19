@@ -1,10 +1,22 @@
 
 <template>
   <div class="greetings">
-    <h1 class="green">Hello World</h1>
-  </div>
-</template>
-
+       <ul>
+          <h2>Hello World</h2>
+          <ul>
+            <li class="assignment-header">
+              <span>Assignment List</span>
+              <span>Month</span>
+            </li>
+            <ul>
+              <li>Git</li>
+              <li>Agile/Scrum</li>
+            </ul>
+          </ul></ul>
+          
+        </div>
+      </template>
+      
 <style scoped>
 h1 {
   font-weight: 500;
@@ -21,6 +33,13 @@ h3 {
 .greetings h3 {
   text-align: center;
 }
+.assignment-header {
+  display: flex;
+  justify-content: space-between; 
+  width:200px;
+  
+}
+
 
 @media (min-width: 1024px) {
   .greetings h1,
