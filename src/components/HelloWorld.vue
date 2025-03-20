@@ -2,7 +2,7 @@
 <template>
   <div class="greetings">
        <ul>
-          <h2>Hello World Khurram</h2>
+          <h2>Hello World Maiza</h2>
           <ul>
             <li class="assignment-header">
               <span>Assignment List</span>
